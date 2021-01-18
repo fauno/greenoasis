@@ -20,8 +20,8 @@
 
 title:            'Wax'
 description:      'Minimal Exhibitions with Jekyll'
-url:              'morusnyc.github.io/'
-baseurl:          '/greenoasis'
+url:              ''
+baseurl:          ''
 copyright:        'Example copyright org, 2019'
 logo:             '/assets/logo.png'
 
