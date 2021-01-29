@@ -17,7 +17,7 @@
 
 
   <body>
-    <time datetime='2021-01-29 14:30'></time>
+    <time datetime='2021-01-29 17:32'></time>
     <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
  <div class='wax-inline-container'>
     <a class='navbar-brand' href="/greenoasis/" title='Home'>
@@ -100,7 +100,7 @@
 
   <div class='item-view'>
     <span class='pagination-link' id='prevlink'></span>
-    
+    <div class="d-none d-md-block w-100">
       <div id="osd" class="image-viewer"></div>
 <script async defer src="/greenoasis/assets/openseadragon/openseadragon.min.js"></script>
 
@@ -112,6 +112,7 @@
       $.each(data.sequences[0].canvases, function(k, val) {
         tileSources.push(val.images[0].resource.service['@id'] + '/info.json');
       });
+
       OpenSeadragon({
         id: "osd",
         sequenceMode: true,
@@ -124,7 +125,13 @@
   });
 </script>
 
-    
+    </div>
+    <div class="d-block d-md-none w-100">
+      <a href='/greenoasis/img/derivatives/simple/obj2/fullwidth.jpg'>
+  <img class="img-fluid" src='/greenoasis/img/derivatives/simple/obj2/fullwidth.jpg' alt='early-photo-of-el-garden'/>
+</a>
+
+    </div>
     <span class='pagination-link' id='nextlink'></span>
   </div>
   

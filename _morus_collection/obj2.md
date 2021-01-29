@@ -7,7 +7,7 @@ _date: '1977'
 order: '1'
 layout: morus_item
 collection: morus_collection
-thumbnail: "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg"
-full: "/img/derivatives/iiif/images/obj2/full/1140,/0/default.jpg"
+thumbnail: img/derivatives/simple/obj2/thumbnail.jpg
+full: img/derivatives/simple/obj2/fullwidth.jpg
 manifest: "/img/derivatives/iiif/obj2/manifest.json"
 ---
