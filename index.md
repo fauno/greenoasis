@@ -15,4 +15,4 @@ The collection items in this demo are from Green Oasis Community Garden in New Y
 
 ### Browse the Collection
 
-{% include collection_gallery.html facet_by='object_type' collection='morus_collection' %}
+{% include collection_gallery.html facet_by='location' collection='morus_collection' %}
