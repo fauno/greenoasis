@@ -18,6 +18,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
+destination:      './docs'
 title:            'MoRUS'
 description:      'Green Oasis Community Garden'
 url:              ''
