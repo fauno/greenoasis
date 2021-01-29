@@ -4,8 +4,8 @@ show_title: false
 banner:
   collection: morus_collection
   pid: obj2
-  y: 50%
-  x: 50%
+  y: center
+  x: center
   height: '500px'
 ---
 
