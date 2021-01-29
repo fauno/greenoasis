@@ -2,7 +2,7 @@
 pid: obj1
 author: morus_contributor
 location: c-squat
-label: picture_of_morus_from_facebook
+label: picture of morus
 _date: '2017'
 order: '0'
 layout: morus_item
